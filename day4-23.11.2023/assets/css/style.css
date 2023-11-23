@@ -1,0 +1,124 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+p {
+  margin: 0.5em 0; /* 0.5 sopra/sotto, 0 destra/sinistra */
+}
+body {
+  width: 450px;
+  margin: auto;
+  background-image: url(../img/sfondo.png);
+  background-repeat: repeat-y;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+header {
+  color: white;
+  text-decoration: none;
+  background-color: lightseagreen;
+  text-align: center;
+  padding: 50px;
+  margin-top: 15px;
+  font-weight: 500;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+/* MAIN */
+main {
+  background-color: white;
+  padding: 50px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+.grey {
+  color: grey;
+  margin: 20px;
+}
+.particomuni {
+  color: fuchsia;
+}
+#aree {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+code {
+  font-size: 13px;
+  background-color: grey;
+  /border: 1px solid darkslategrey;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+/* TABELLE */
+th {
+  background-color: rgb(38, 130, 130);
+  padding: 15px;
+  border: 1px solid white;
+}
+td {
+  padding: 10px;
+}
+.tabcolor {
+  background-color: rgb(120, 192, 168);
+} /* FORM */
+#tool {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+iframe {
+  border-radius: 20px 20px 20px 20px;
+}
+form {
+  background-color: rgb(128, 128, 128);
+  text-align: center;
+  padding: 30px;
+}
+button {
+  background-color: #3498db; /* Cambia il colore di sfondo del bottone */
+  color: white; /* Cambia il colore del testo */
+  padding: 10px 20px; /* Aggiunge spazio intorno al testo */
+  border: none; /* Rimuove il bordo del bottone */
+  border-radius: 5px; /* Aggiunge angoli arrotondati al bottone */
+  cursor: pointer; /* Cambia il cursore al passaggio sopra il bottone */
+  font-size: 16px;
+} /* Imposta la dimensione del testo */
+input {
+  border-bottom: 1px dashed blue;
+}
+/* ELEMENTI NELL' ASIDE */
+#correlati {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.corr {
+  background-color: lightgrey;
+  padding: 20px;
+  margin: 10px;
+}
+/* FOOTER */
+footer {
+  background: linear-gradient(to bottom right, #4400ff, #000000);
+}
